@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio_jisu</title>
 
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/mobile.css">
     <link rel="stylesheet" href="css/pc.css">
@@ -108,7 +109,7 @@
             <h2>INDEX - Renewal Design</h2>
 
             <div class="s2con">
-                <div class="box box1 ac">
+                <div class="box box1 ac" data-aos="zoom-in"data-aos-duration="800">
                     <div class="num">01</div>
                     <div class="s2pic">
                         <div class="photo"><img src="imges/intro_01.jpg" alt="스카이베이"></div>
@@ -120,7 +121,7 @@
                     </div><!--s2pic-->
                 </div><!--box1-->
 
-                <div class="box box2">
+                <div class="box box2" data-aos="zoom-in" data-aos-delay="100"data-aos-duration="800">
                     <div class="num">02</div>
                     <div class="s2pic">
                         <div class="photo"><img src="imges/intro_02.jpg" alt="네이쳐하이크"></div>
@@ -132,7 +133,7 @@
                     </div><!--s2pic-->
                 </div><!--box2-->
 
-                <div class="box box3">
+                <div class="box box3" data-aos="zoom-in" data-aos-delay="200"data-aos-duration="800">
                     <div class="num">03</div>
                     <div class="s2pic">
                         <div class="photo"><img src="imges/intro_03.jpg" alt="요기요"></div>
@@ -175,7 +176,7 @@
                 <div class="mtitle">SKYBAY</div>
                 <div class="subT">ABOUT</div>
                 <div class="subtxt">
-                    <p class="ko">
+                    <p class="ko" >
                         스카이베이 경포 호텔은 한국의 관동팔경의 하나로 
                         최고의 휴양지인 강릉 경포대 앞에 위치해 있습니다.
                         푸른 동해바다와 경포 호수의 전망을한 눈에 볼 수 있는 
@@ -191,27 +192,32 @@
         <div class="sWrap">
             <div class="F1">
                 <h2>Overview</h2>
-                <p class="overtxt ko">SNS가 활성화되면서 젊은층에서부터 "호캉스"가 유행하게 되었습니다.
-                    관광지로 유명한 강릉과 SNS에서 오션뷰로 핫한 스카이베이의
-                    강점을 활용하여 사용자를 유입하고, 다양한 디바이스에서 사용가능하도록
-                    반응형 웹사이트로 제작하여 최적의 사용자 경험을 제공하는 것을
-                    목표로 하였습니다.
-                </p>
 
-                <div class="box">
-                    <ul class="keyword ko">
-                        <li><span>작업시간</span>2023.11월</li>
-                        <li><span>기여도</span>개인작업 100%</li>
-                        <li><span>웹그리드</span>Pc : 1320px / Mobile : 360px</li>
-                        <li><span>키워드</span>청량함, 유용성, 정보전달 </li>
-                    </ul>
+                <div class="F1wrap">
+                    <div class="box">
+                        <p class="overtxt ko">SNS가 활성화되면서 젊은층에서부터 "호캉스"가 유행하게 되었습니다.
+                            관광지로 유명한 강릉과 SNS에서 오션뷰로 핫한 스카이베이의
+                            강점을 활용하여 사용자를 유입하고, 다양한 디바이스에서 사용가능하도록
+                            반응형 웹사이트로 제작하여 최적의 사용자 경험을 제공하는 것을
+                            목표로 하였습니다.
+                        </p>
 
-                    <div class="web">
+                        <ul class="keyword ko">
+                            <li><span>작업시간</span>2023.11월</li>
+                            <li><span>기여도</span>개인작업 100%</li>
+                            <li><span>웹그리드</span>Pc : 1320px / Mobile : 360px</li>
+                            <li><span>키워드</span>청량함, 유용성, 정보전달 </li>
+                        </ul>
+
+                    </div><!--box-->
+
+                    <div class="web" data-aos="fade-left" data-aos-offset="500" data-aos-duration="500"data-aos-easing="ease-in-sine">
                         <div class="webpic">
                             <img src="imges/main_skybay.jpg" alt="skybaymainpage">
                         </div>
-                    </div>
-                </div><!--box-->
+                    </div><!--web-->
+
+                </div><!--F1wrap-->
             </div><!--F1-->
 
             <div class="F2">
@@ -292,7 +298,7 @@
 
             </div><!--F2-->
 
-            <div class="site ko skybtn"><a href="https://jisu13.github.io/Skybayhotel/" target="_blank">웹 바로가기</a></div>
+            <div class="site ko skybtn"data-aos="flip-left"><a href="https://jisu13.github.io/Skybayhotel/" target="_blank">웹 바로가기</a></div>
 
            
         </div><!--sWrap-->
@@ -322,29 +328,34 @@
         <div class="sWrap">
             <div class="F1">
                 <h2>Overview</h2>
-                <p class="overtxt ko">
-                    한국 캠핑 인구 700만 시대, 한국관광공사에 따르면 지난 2년사이 17%의 성장세를 기록했습니다. 
-                    캠핑인구 증가에 따라 캠핑장도 급증하는 만큼 모두를 위한 안전하고 쾌적한 캠핑이 필요합니다. 
-                    "가성비 좋은 브랜드"로 자리잡은 네이쳐하이크의 인지도를 활용하여, 캠핑러들에게 더욱
-                    편리하고 다양한 정보를 제공하여 캠핑활동의 즐거움을 주고자 하였습니다.
-                    더 나아가 많은 사람들이 쉽게 접근할 수 있도록 반응형 웹사이트로 제작하여 
-                    캠핑과 웹의 접근성을 높이고자 하였습니다.
-                </p>
 
-                <div class="box">
-                    <ul class="keyword ko">
-                        <li><span>작업시간</span>2023.10월</li>
-                        <li><span>기여도</span>개인작업 100%</li>
-                        <li><span>웹그리드</span>Pc : 1320px / Mobile : 360px</li>
-                        <li><span>키워드</span>하이킹, 사용성, 캠핑 정보전달 </li>
-                    </ul>
+                <div class="F1wrap">
+                    <div class="box">
+                        <p class="overtxt ko">
+                            한국 캠핑 인구 700만 시대, 한국관광공사에 따르면 지난 2년사이 17%의 성장세를 기록했습니다. 
+                            캠핑인구 증가에 따라 캠핑장도 급증하는 만큼 모두를 위한 안전하고 쾌적한 캠핑이 필요합니다. 
+                            "가성비 좋은 브랜드"로 자리잡은 네이쳐하이크의 인지도를 활용하여, 캠핑러들에게 더욱
+                            편리하고 다양한 정보를 제공하여 캠핑활동의 즐거움을 주고자 하였습니다.
+                            더 나아가 많은 사람들이 쉽게 접근할 수 있도록 반응형 웹사이트로 제작하여 
+                            캠핑과 웹의 접근성을 높이고자 하였습니다.
+                        </p>
 
-                    <div class="web">
+                        <ul class="keyword ko">
+                            <li><span>작업시간</span>2023.10월</li>
+                            <li><span>기여도</span>개인작업 100%</li>
+                            <li><span>웹그리드</span>Pc : 1320px / Mobile : 360px</li>
+                            <li><span>키워드</span>하이킹, 사용성, 캠핑 정보전달 </li>
+                        </ul>
+
+                    </div><!--box-->
+
+                    <div class="web"data-aos="fade-left" data-aos-offset="500" data-aos-duration="500"data-aos-easing="ease-in-sine">
                         <div class="webpic">
                             <img src="imges/main_natuerhike.jpg" alt="natuerhikemainpage">
                         </div>
-                    </div>
-                </div><!--box-->
+                    </div><!--web-->
+                
+                </div><!--F1wrap-->
             </div><!--F1-->
 
             <div class="F2">
@@ -420,7 +431,7 @@
 
             </div><!--F2-->
 
-            <div class="site ko natuerbtn"><a href="https://jisu13.github.io/Naturehike/" target="_blank">웹 바로가기</a></div>
+            <div class="site ko natuerbtn" data-aos="flip-left"><a href="https://jisu13.github.io/Naturehike/" target="_blank">웹 바로가기</a></div>
 
            
         </div><!--sWrap-->
@@ -449,28 +460,33 @@
         <div class="sWrap">
             <div class="F1">
                 <h2>Overview</h2>
-                <p class="overtxt ko">
-                    젊은 층으로 갈수록 '전화공포증'이라는 신조어가 등장할 정도로 모르는 상대방과의 전화를
-                    부담스러워하는 사람들을 볼 수 있습니다. 모바일로 주문부터 결제까지 가능하여 
-                    청각장애인 등 전화 주문 자체가 어려운 사람들에게도 도움이 될 수 있는 
-                    배달 서비스 어플의 이용량이 많아지게 되었습니다. 어플을 사용하지 않는 잠재적 고객들도
-                    요기요의 서비스를 경험할 수 있도록 웹페이지를 리뉴얼하여 접근성과 사용성을 높이고자 하였습니다. 
-                </p>
 
-                <div class="box">
-                    <ul class="keyword ko">
-                        <li><span>작업시간</span>2023.09월</li>
-                        <li><span>기여도</span>개인작업 100%</li>
-                        <li><span>웹그리드</span>Pc : 1240px (935px)</li>
-                        <li><span>키워드</span>2030세대, 직장인, 편리성</li>
-                    </ul>
+                <div class="F1wrap">
+                    <div class="box">
+                        <p class="overtxt ko">
+                            젊은 층으로 갈수록 '전화공포증'이라는 신조어가 등장할 정도로 모르는 상대방과의 전화를
+                            부담스러워하는 사람들을 볼 수 있습니다. 모바일로 주문부터 결제까지 가능하여 
+                            청각장애인 등 전화 주문 자체가 어려운 사람들에게도 도움이 될 수 있는 
+                            배달 서비스 어플의 이용량이 많아지게 되었습니다. 어플을 사용하지 않는 잠재적 고객들도
+                            요기요의 서비스를 경험할 수 있도록 웹페이지를 리뉴얼하여 접근성과 사용성을 높이고자 하였습니다. 
+                        </p>
 
-                    <div class="web">
+                        <ul class="keyword ko">
+                            <li><span>작업시간</span>2023.09월</li>
+                            <li><span>기여도</span>개인작업 100%</li>
+                            <li><span>웹그리드</span>Pc : 1240px (935px)</li>
+                            <li><span>키워드</span>2030세대, 직장인, 편리성</li>
+                        </ul>
+
+                    </div><!--box-->
+
+                    <div class="web" data-aos="fade-left" data-aos-offset="300" data-aos-duration="500"data-aos-easing="ease-in-sine">
                         <div class="webpic">
                             <img src="imges/main_yogiyo.jpg" alt="yogiyomainpage">
                         </div>
-                    </div>
-                </div><!--box-->
+                    </div><!--web-->
+
+                </div><!--F1wrap-->
             </div><!--F1-->
 
             <div class="F2">
@@ -547,7 +563,7 @@
 
             </div><!--F2-->
 
-            <div class="site ko yogiyobtn"><a href="https://jisu13.github.io/Yogiyo/" target="_blank">웹 바로가기</a></div>
+            <div class="site ko yogiyobtn" data-aos="flip-left"><a href="https://jisu13.github.io/Yogiyo/" target="_blank">웹 바로가기</a></div>
 
            
         </div><!--sWrap-->
@@ -572,6 +588,7 @@
 
     <script src="https://code.jquery.com/jquery-3.7.0.min.js"
                 integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g="crossorigin="anonymous"></script>
+                <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
 
 
@@ -599,6 +616,8 @@
                 "scrollTop" : offsets[idx]
             })
         });
+
+        AOS.init();
 
 
     </script>
