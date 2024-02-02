@@ -51,17 +51,23 @@
 
   /* 메인페이지 끝 */
   
-  .submain .overtxt{width: calc((100% - 24px) /2);}
-  .submain .box{display: flex; justify-content: space-between;}
-  .submain .box .keyword{
+  .F1wrap{display: flex; justify-content: space-between;}
+  
+  .submain .box{
     width: calc((100% - 24px) /2);
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .submain .box .keyword{
     margin-top: auto;
     margin-bottom: 0;
   }
-  .submain .box .web{width: calc((100% - 24px) /2);}
+  .submain .web{width: calc((100% - 24px) /2); margin-left: auto;}
+  
+
   /* 오버뷰 끝 */
 
-  .Ltop{width: calc((100% - 24px) /2);}
   .Lbottom, .cright{display: flex; justify-content: space-between;}
   .asis{width: calc((100% - 24px) /2);}
   .tobe{margin-top: 0; width: calc((100% - 24px) /2);}
@@ -124,9 +130,8 @@
   .Scolor li{width: calc(100% / 6);}
   /* 컬러 */
   
+}
 
-
-
-
-
+@media all and (min-width:1280px){
+  .Ltop{width: calc((100% - 24px) /2);}
 }
